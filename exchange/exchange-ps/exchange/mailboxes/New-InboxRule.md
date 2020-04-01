@@ -17,7 +17,7 @@ This cmdlet is available in on-premises Exchange and in the cloud-based service.
 
 Use the New-InboxRule cmdlet to create Inbox rules in mailboxes. Inbox rules process messages in the Inbox based on conditions and take actions such as moving a message to a specified folder or deleting a message.
 
-You must have adequate permissions on the mailbox to create an Inbox rule.
+You must have adequate permissions on the mailbox to create an Inbox rule. For example, moving items between folders requires FullAccess permission on the mailbox.
 
 For information about the parameter sets in the Syntax section below, see [Exchange cmdlet syntax](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-cmdlet-syntax).
 
